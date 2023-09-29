@@ -9,6 +9,17 @@
   <title>Contacto</title>
 </head>
 
+<script>
+  function confirmacion() {
+    let respuesta = confirm("¿Desea enviar esta información?")
+    if (respuesta == true) {
+      alert('¡Enviado con éxito!');
+    } else {
+      return false;
+    }
+  }
+</script>
+
 <body>
   <header>
     <div class="titulo">
@@ -29,7 +40,7 @@
     <div class="contenedor-contacto">
       <div class="contacto-rapido">
         <h2>Contacto Rápido</h2>
-        <form action="">
+        <form action="https://formsubmit.co/wowaura833@gmail.com" method="post">
           <fieldset>
             <label for="name">Nombre</label>
             <input type="text" name="nombre" id="name">
@@ -47,10 +58,12 @@
 
           <fieldset>
             <label for="name">Mensaje</label>
-            <input type="text" name="msj" id="mensaje">
+            <textarea name="mensaje" id="mensaje"></textarea>
           </fieldset>
 
-          <input type="submit" value="Enviar" class="boton-submit">
+          <input type="submit" value="Enviar" class="boton-submit" onclick="return confirmacion()">
+          <input type="hidden" name="_next" value="./home.html">
+          <input type="hidden" name="_captcha" value="false">
 
         </form>
       </div>
