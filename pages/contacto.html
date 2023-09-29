@@ -6,17 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles.css">
   <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css">
   <title>Contacto</title>
 </head>
 
 <script>
   function confirmacion() {
-    let respuesta = confirm("¿Desea enviar esta información?")
-    if (respuesta == true) {
-      alert('¡Enviado con éxito!');
-    } else {
-      return false;
-    }
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: '¡Mensaje enviado con éxito!',
+      showConfirmButton: false,
+      timer: 1500
+    })
   }
 </script>
 
@@ -62,7 +66,7 @@
           </fieldset>
 
           <input type="submit" value="Enviar" class="boton-submit" onclick="return confirmacion()">
-          <input type="hidden" name="_next" value="./home.html">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/contacto.html">
           <input type="hidden" name="_captcha" value="false">
 
         </form>
