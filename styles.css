@@ -72,7 +72,7 @@ a:hover {
 }
 
 main {
-  height: 60vh;
+  height: 65vh;
   display: flex;
   justify-content: center;
 }
@@ -160,7 +160,7 @@ footer {
 
 
 .main-nosotros {
-  height: 120vh;
+  height: 110vh;
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -230,7 +230,7 @@ footer {
 
 
 .main-servicios {
-  height: 120vh;
+  height: 110vh;
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -409,7 +409,6 @@ input {
 
 #mensaje {
   height: 5rem;
-  width: 25vw;
   background-color: #64646433;
 }
 
@@ -441,20 +440,22 @@ input {
 /* ---------------------------------------------------------------------- */
 
 @media screen and (min-width: 1400px) and (max-width: 1460px) {
-  .main-galeria {
-    height: 100vh;
+  .main-nosotros {
+    height: 115vh;
   }
-}
 
-@media screen and (min-width: 1400px) and (max-width: 1460px) {
   .main-galeria {
-    height: 100vh;
+    height: 95vh;
+  }
+
+  .main-servicios {
+    height: 120vh;
   }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   main {
-    height: 70vh;
+    height: 65vh;
   }
 
   .logo {
@@ -462,7 +463,7 @@ input {
   }
 
   .main-nosotros {
-    height: 180vh;
+    height: 170vh;
   }
 
   .contenedor-staff {
@@ -473,7 +474,7 @@ input {
   }
 
   .main-servicios {
-    height: 140vh;
+    height: 130vh;
   }
 
   .main-galeria {
@@ -485,7 +486,7 @@ input {
   }
 
   .main-contacto {
-    height: 75vh;
+    height: 65vh;
   }
 }
 
@@ -499,7 +500,7 @@ input {
   }
 
   main {
-    height: 75vh;
+    height: 65vh;
   }
 
   .div-comentario {
@@ -514,6 +515,10 @@ input {
     width: 5rem;
   }
 
+  .main-nosotros {
+    height: 175vh;
+  }
+
   .contenedor-staff {
     display: flex;
     flex-wrap: wrap;
@@ -522,7 +527,7 @@ input {
   }
 
   .main-servicios {
-    height: 175vh;
+    height: 155vh;
   }
 
   .transporte-aereo {
@@ -538,7 +543,7 @@ input {
   }
 
   .main-galeria {
-    height: 130vh;
+    height: 120vh;
   }
 
   .contenedor-galeria {
@@ -546,7 +551,7 @@ input {
   }
 
   .main-contacto {
-    height: 75vh;
+    height: 65vh;
   }
 }
 
@@ -565,7 +570,7 @@ input {
   }
 
   main {
-    height: 75vh;
+    height: 70vh;
   }
 
   .div-comentario {
@@ -586,7 +591,7 @@ input {
   }
 
   .main-nosotros {
-    height: 250vh;
+    height: 225vh;
   }
 
   .contenedor-staff {
@@ -602,7 +607,7 @@ input {
   }
 
   .main-servicios {
-    height: 180vh;
+    height: 155vh;
   }
 
   .contenedorServicios {
@@ -628,7 +633,7 @@ input {
   }
 
   .main-galeria {
-    height: 160vh;
+    height: 150vh;
   }
 
   .contenedor-galeria {
@@ -636,7 +641,7 @@ input {
   }
 
   .main-contacto {
-    height: 75vh;
+    height: 65vh;
   }
 
   .contacto-rapido h2 {
@@ -679,7 +684,7 @@ input {
   }
 
   .main-nosotros {
-    height: 260vh;
+    height: 235vh;
   }
 
   .contenedor-staff {
@@ -695,7 +700,7 @@ input {
   }
 
   .main-servicios {
-    height: 200vh;
+    height: 160vh;
   }
 
   .contenedorServicios {
@@ -725,7 +730,7 @@ input {
   }
 
   .main-galeria {
-    height: 160vh;
+    height: 150vh;
   }
 
   .contenedor-galeria {
@@ -733,7 +738,7 @@ input {
   }
 
   .main-contacto {
-    height: 125vh;
+    height: 100vh;
   }
 
   .contenedor-contacto {
@@ -783,7 +788,7 @@ input {
   }
 
   main {
-    height: 90vh;
+    height: 80vh;
   }
 
   header {
@@ -846,7 +851,7 @@ input {
   }
 
   .main-nosotros {
-    height: 365vh;
+    height: 325vh;
   }
 
   .texto-historia {
@@ -877,7 +882,7 @@ input {
   }
 
   .main-servicios {
-    height: 295vh;
+    height: 255vh;
   }
 
   .contenedorServicios {
@@ -913,7 +918,7 @@ input {
   }
 
   .main-galeria {
-    height: 310vh;
+    height: 280vh;
   }
 
   .contenedor-galeria {
@@ -921,7 +926,7 @@ input {
   }
 
   .main-contacto {
-    height: 130vh;
+    height: 102vh;
   }
 
   .contenedor-contacto {
